@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202F9FEB25F0219900D421CF /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F9FEA25F0219900D421CF /* Tools.swift */; };
+		2078D15625EFF6D600C69C79 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2078D15525EFF6D600C69C79 /* SettingsView.swift */; };
+		2078D15E25F0007200C69C79 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2078D15D25F0007200C69C79 /* Chat.swift */; };
+		20EBE24D25EE599400CFD9DA /* ITAKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBE24C25EE599400CFD9DA /* ITAKApp.swift */; };
+		20EBE24F25EE599400CFD9DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBE24E25EE599400CFD9DA /* ContentView.swift */; };
+		20EBE25125EE599500CFD9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EBE25025EE599500CFD9DA /* Assets.xcassets */; };
+		20EBE25425EE599500CFD9DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EBE25325EE599500CFD9DA /* Preview Assets.xcassets */; };
+		20EBE25F25EE599500CFD9DA /* ITAKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBE25E25EE599500CFD9DA /* ITAKTests.swift */; };
+		20EBE26A25EE599500CFD9DA /* ITAKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBE26925EE599500CFD9DA /* ITAKUITests.swift */; };
+		20EBE27D25EE83C900CFD9DA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBE27C25EE83C900CFD9DA /* Home.swift */; };
+		20EBE28525EE83FB00CFD9DA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBE28425EE83FB00CFD9DA /* MapView.swift */; };
+		20EBE28A25EE976100CFD9DA /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBE28925EE976100CFD9DA /* MapViewModel.swift */; };
+		20EBE29025EEB53200CFD9DA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBE28F25EEB53200CFD9DA /* Place.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20EBE25B25EE599500CFD9DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EBE24125EE599400CFD9DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EBE24825EE599400CFD9DA;
+			remoteInfo = ITAK;
+		};
+		20EBE26625EE599500CFD9DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EBE24125EE599400CFD9DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EBE24825EE599400CFD9DA;
+			remoteInfo = ITAK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		202F9FEA25F0219900D421CF /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		2078D15525EFF6D600C69C79 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2078D15D25F0007200C69C79 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		20EBE24925EE599400CFD9DA /* ITAK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITAK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EBE24C25EE599400CFD9DA /* ITAKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITAKApp.swift; sourceTree = "<group>"; };
+		20EBE24E25EE599400CFD9DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20EBE25025EE599500CFD9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20EBE25325EE599500CFD9DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20EBE25525EE599500CFD9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EBE25A25EE599500CFD9DA /* ITAKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITAKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EBE25E25EE599500CFD9DA /* ITAKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITAKTests.swift; sourceTree = "<group>"; };
+		20EBE26025EE599500CFD9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EBE26525EE599500CFD9DA /* ITAKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITAKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EBE26925EE599500CFD9DA /* ITAKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITAKUITests.swift; sourceTree = "<group>"; };
+		20EBE26B25EE599500CFD9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EBE27C25EE83C900CFD9DA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		20EBE28425EE83FB00CFD9DA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		20EBE28925EE976100CFD9DA /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		20EBE28F25EEB53200CFD9DA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20EBE24625EE599400CFD9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EBE25725EE599500CFD9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EBE26225EE599500CFD9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EBE24025EE599400CFD9DA = {
+			isa = PBXGroup;
+			children = (
+				20EBE24B25EE599400CFD9DA /* ITAK */,
+				20EBE25D25EE599500CFD9DA /* ITAKTests */,
+				20EBE26825EE599500CFD9DA /* ITAKUITests */,
+				20EBE24A25EE599400CFD9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20EBE24A25EE599400CFD9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20EBE24925EE599400CFD9DA /* ITAK.app */,
+				20EBE25A25EE599500CFD9DA /* ITAKTests.xctest */,
+				20EBE26525EE599500CFD9DA /* ITAKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20EBE24B25EE599400CFD9DA /* ITAK */ = {
+			isa = PBXGroup;
+			children = (
+				20EBE28E25EEB51B00CFD9DA /* Model */,
+				20EBE27B25EE83A700CFD9DA /* ViewModel */,
+				20EBE27A25EE839A00CFD9DA /* View */,
+				20EBE24C25EE599400CFD9DA /* ITAKApp.swift */,
+				20EBE24E25EE599400CFD9DA /* ContentView.swift */,
+				20EBE25025EE599500CFD9DA /* Assets.xcassets */,
+				20EBE25525EE599500CFD9DA /* Info.plist */,
+				20EBE25225EE599500CFD9DA /* Preview Content */,
+			);
+			path = ITAK;
+			sourceTree = "<group>";
+		};
+		20EBE25225EE599500CFD9DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20EBE25325EE599500CFD9DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20EBE25D25EE599500CFD9DA /* ITAKTests */ = {
+			isa = PBXGroup;
+			children = (
+				20EBE25E25EE599500CFD9DA /* ITAKTests.swift */,
+				20EBE26025EE599500CFD9DA /* Info.plist */,
+			);
+			path = ITAKTests;
+			sourceTree = "<group>";
+		};
+		20EBE26825EE599500CFD9DA /* ITAKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20EBE26925EE599500CFD9DA /* ITAKUITests.swift */,
+				20EBE26B25EE599500CFD9DA /* Info.plist */,
+			);
+			path = ITAKUITests;
+			sourceTree = "<group>";
+		};
+		20EBE27A25EE839A00CFD9DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20EBE27C25EE83C900CFD9DA /* Home.swift */,
+				20EBE28425EE83FB00CFD9DA /* MapView.swift */,
+				2078D15525EFF6D600C69C79 /* SettingsView.swift */,
+				2078D15D25F0007200C69C79 /* Chat.swift */,
+				202F9FEA25F0219900D421CF /* Tools.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20EBE27B25EE83A700CFD9DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20EBE28925EE976100CFD9DA /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20EBE28E25EEB51B00CFD9DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20EBE28F25EEB53200CFD9DA /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20EBE24825EE599400CFD9DA /* ITAK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EBE26E25EE599500CFD9DA /* Build configuration list for PBXNativeTarget "ITAK" */;
+			buildPhases = (
+				20EBE24525EE599400CFD9DA /* Sources */,
+				20EBE24625EE599400CFD9DA /* Frameworks */,
+				20EBE24725EE599400CFD9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITAK;
+			productName = ITAK;
+			productReference = 20EBE24925EE599400CFD9DA /* ITAK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20EBE25925EE599500CFD9DA /* ITAKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EBE27125EE599500CFD9DA /* Build configuration list for PBXNativeTarget "ITAKTests" */;
+			buildPhases = (
+				20EBE25625EE599500CFD9DA /* Sources */,
+				20EBE25725EE599500CFD9DA /* Frameworks */,
+				20EBE25825EE599500CFD9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EBE25C25EE599500CFD9DA /* PBXTargetDependency */,
+			);
+			name = ITAKTests;
+			productName = ITAKTests;
+			productReference = 20EBE25A25EE599500CFD9DA /* ITAKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20EBE26425EE599500CFD9DA /* ITAKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EBE27425EE599500CFD9DA /* Build configuration list for PBXNativeTarget "ITAKUITests" */;
+			buildPhases = (
+				20EBE26125EE599500CFD9DA /* Sources */,
+				20EBE26225EE599500CFD9DA /* Frameworks */,
+				20EBE26325EE599500CFD9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EBE26725EE599500CFD9DA /* PBXTargetDependency */,
+			);
+			name = ITAKUITests;
+			productName = ITAKUITests;
+			productReference = 20EBE26525EE599500CFD9DA /* ITAKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20EBE24125EE599400CFD9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					20EBE24825EE599400CFD9DA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					20EBE25925EE599500CFD9DA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 20EBE24825EE599400CFD9DA;
+					};
+					20EBE26425EE599500CFD9DA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 20EBE24825EE599400CFD9DA;
+					};
+				};
+			};
+			buildConfigurationList = 20EBE24425EE599400CFD9DA /* Build configuration list for PBXProject "ITAK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20EBE24025EE599400CFD9DA;
+			productRefGroup = 20EBE24A25EE599400CFD9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20EBE24825EE599400CFD9DA /* ITAK */,
+				20EBE25925EE599500CFD9DA /* ITAKTests */,
+				20EBE26425EE599500CFD9DA /* ITAKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EBE24725EE599400CFD9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EBE25425EE599500CFD9DA /* Preview Assets.xcassets in Resources */,
+				20EBE25125EE599500CFD9DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EBE25825EE599500CFD9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EBE26325EE599500CFD9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20EBE24525EE599400CFD9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2078D15625EFF6D600C69C79 /* SettingsView.swift in Sources */,
+				20EBE24F25EE599400CFD9DA /* ContentView.swift in Sources */,
+				20EBE28A25EE976100CFD9DA /* MapViewModel.swift in Sources */,
+				20EBE28525EE83FB00CFD9DA /* MapView.swift in Sources */,
+				20EBE29025EEB53200CFD9DA /* Place.swift in Sources */,
+				2078D15E25F0007200C69C79 /* Chat.swift in Sources */,
+				202F9FEB25F0219900D421CF /* Tools.swift in Sources */,
+				20EBE27D25EE83C900CFD9DA /* Home.swift in Sources */,
+				20EBE24D25EE599400CFD9DA /* ITAKApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EBE25625EE599500CFD9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EBE25F25EE599500CFD9DA /* ITAKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EBE26125EE599500CFD9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EBE26A25EE599500CFD9DA /* ITAKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20EBE25C25EE599500CFD9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EBE24825EE599400CFD9DA /* ITAK */;
+			targetProxy = 20EBE25B25EE599500CFD9DA /* PBXContainerItemProxy */;
+		};
+		20EBE26725EE599500CFD9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EBE24825EE599400CFD9DA /* ITAK */;
+			targetProxy = 20EBE26625EE599500CFD9DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20EBE26C25EE599500CFD9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20EBE26D25EE599500CFD9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20EBE26F25EE599500CFD9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ITAK/Preview Content\"";
+				DEVELOPMENT_TEAM = VV5VJ9R2LR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ITAK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-tactical-assault-app.ITAK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20EBE27025EE599500CFD9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ITAK/Preview Content\"";
+				DEVELOPMENT_TEAM = VV5VJ9R2LR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ITAK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-tactical-assault-app.ITAK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20EBE27225EE599500CFD9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV5VJ9R2LR;
+				INFOPLIST_FILE = ITAKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-tactical-assault-app.ITAKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITAK.app/ITAK";
+			};
+			name = Debug;
+		};
+		20EBE27325EE599500CFD9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV5VJ9R2LR;
+				INFOPLIST_FILE = ITAKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-tactical-assault-app.ITAKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITAK.app/ITAK";
+			};
+			name = Release;
+		};
+		20EBE27525EE599500CFD9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV5VJ9R2LR;
+				INFOPLIST_FILE = ITAKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-tactical-assault-app.ITAKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ITAK;
+			};
+			name = Debug;
+		};
+		20EBE27625EE599500CFD9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VV5VJ9R2LR;
+				INFOPLIST_FILE = ITAKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-tactical-assault-app.ITAKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ITAK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20EBE24425EE599400CFD9DA /* Build configuration list for PBXProject "ITAK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EBE26C25EE599500CFD9DA /* Debug */,
+				20EBE26D25EE599500CFD9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EBE26E25EE599500CFD9DA /* Build configuration list for PBXNativeTarget "ITAK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EBE26F25EE599500CFD9DA /* Debug */,
+				20EBE27025EE599500CFD9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EBE27125EE599500CFD9DA /* Build configuration list for PBXNativeTarget "ITAKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EBE27225EE599500CFD9DA /* Debug */,
+				20EBE27325EE599500CFD9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EBE27425EE599500CFD9DA /* Build configuration list for PBXNativeTarget "ITAKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EBE27525EE599500CFD9DA /* Debug */,
+				20EBE27625EE599500CFD9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20EBE24125EE599400CFD9DA /* Project object */;
+}
